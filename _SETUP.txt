@@ -4,7 +4,6 @@ cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\push-to-github.ps1
 
 cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\pull-from-github.ps1
 
-
 cd D:\__MEMECOIN_SCANNER\_memecoin_scanner
 
  

@@ -1,0 +1,12 @@
+_BRANCHES
+
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner
+
+Create a new branch called dev:
+git branch dev
+
+Switch to the new branch:
+git checkout dev
+OR
+git checkout -b dev
+
