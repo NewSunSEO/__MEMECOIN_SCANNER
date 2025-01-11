@@ -3,9 +3,8 @@ _BRANCHES
 cd D:\__MEMECOIN_SCANNER\_memecoin_scanner
 
 
-Create a new branch called dev:
+Create a new branch called dev and switch to it:
 git checkout -b dev
-
 
 switch to the main branch:
 git checkout main
