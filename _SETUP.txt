@@ -1,8 +1,11 @@
 
+PUSH
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\github-push-dev.ps1
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\github-push-main.ps1
 
-cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\push-to-github.ps1
-
-cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\pull-from-github.ps1
+PULL
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\github-pull-dev.ps1
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\github-pull-main.ps1
 
 cd D:\__MEMECOIN_SCANNER\_memecoin_scanner
 

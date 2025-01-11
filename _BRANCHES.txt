@@ -2,11 +2,24 @@ _BRANCHES
 
 cd D:\__MEMECOIN_SCANNER\_memecoin_scanner
 
-Create a new branch called dev:
-git branch dev
 
-Switch to the new branch:
-git checkout dev
-OR
+Create a new branch called dev:
 git checkout -b dev
 
+
+switch to the main branch:
+git checkout main
+
+
+
+Work in the dev branch (edit your files and commit changes):
+git add .
+git commit -m "Implemented new feature in dev branch"
+git push origin dev
+
+
+Merge dev into main when ready:
+git checkout main
+git pull origin main
+git merge dev
+git push origin main
