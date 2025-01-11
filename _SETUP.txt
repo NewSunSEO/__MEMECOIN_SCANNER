@@ -1,9 +1,20 @@
 
 
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\push-to-github.ps1
+
+cd D:\__MEMECOIN_SCANNER\_memecoin_scanner; .\pull-from-github.ps1
 
 
+
+
+ 
 Initialize Git in the folder:
 git init
+
+git config --global user.name Joseph Farrar
+git config --global user.email joe@newsunseo.com
+
+git config --global --list
 
 Add all project files to Git:
 git add .
@@ -11,10 +22,9 @@ git add .
 Commit the files:
 git commit -m "Initial commit"
 
-
 git remote add origin https://github.com/NewSunSEO/__MEMECOIN_SCANNER.git
 
 git branch -M main
 git push -u origin main
 
-git clone https://github.com/your-username/meme-coin-scanner.git
+git clone https://github.com/NewSunSEO/__MEMECOIN_SCANNER.git
