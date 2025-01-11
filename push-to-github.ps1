@@ -6,7 +6,7 @@ $remote = git remote -v
 
 if (-not $remote) {
     # Add the remote repository URL
-    git remote add origin https://github.com/YourUsername/YourRepository.git
+    git remote add origin https://github.com/NewSunSEO/__MEMECOIN_SCANNER.git
 }
 
 # Add all changes to staging
