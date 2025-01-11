@@ -1,0 +1,20 @@
+
+
+
+
+Initialize Git in the folder:
+git init
+
+Add all project files to Git:
+git add .
+
+Commit the files:
+git commit -m "Initial commit"
+
+
+git remote add origin https://github.com/NewSunSEO/__MEMECOIN_SCANNER.git
+
+git branch -M main
+git push -u origin main
+
+git clone https://github.com/your-username/meme-coin-scanner.git
